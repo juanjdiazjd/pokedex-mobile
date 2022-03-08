@@ -1,0 +1,478 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should pokemon card detail component 1`] = `
+<View>
+  <View
+    className="sc-iCfMLu dmXPVK"
+  >
+    <Text
+      className="sc-bdvvtL dPVMfN"
+      colorText="#FFFFFF"
+      mode="light"
+      style={
+        Object {
+          "textTransform": "capitalize",
+        }
+      }
+      textAlign="center"
+      values={
+        Object {
+          "color": "#FFFFFF",
+          "fontSize": "28px",
+          "fontWeight": "800",
+          "lineHeight": "28px",
+          "type": "veryBigBoldMonserrat",
+          "variant": "Montserrat-SemiBold",
+        }
+      }
+    >
+      charizard - #006
+    </Text>
+  </View>
+  <View
+    className="sc-iCfMLu dmXPVK"
+    style={
+      Object {
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      className="sc-gKclnd bJeKtN"
+    >
+      <Text
+        className="sc-bdvvtL gsWCfe"
+        colorText="#FFFFFF"
+        mode="light"
+        textAlign="center"
+        values={
+          Object {
+            "color": "#FFFFFF",
+            "fontSize": "18px",
+            "fontWeight": "800",
+            "lineHeight": "28px",
+            "type": "bigBoldMonserrat",
+            "variant": "Montserrat-SemiBold",
+          }
+        }
+      >
+        fire
+      </Text>
+    </View>
+    <View
+      className="sc-gKclnd bJeKtN"
+    >
+      <Text
+        className="sc-bdvvtL gsWCfe"
+        colorText="#FFFFFF"
+        mode="light"
+        textAlign="center"
+        values={
+          Object {
+            "color": "#FFFFFF",
+            "fontSize": "18px",
+            "fontWeight": "800",
+            "lineHeight": "28px",
+            "type": "bigBoldMonserrat",
+            "variant": "Montserrat-SemiBold",
+          }
+        }
+      >
+        flying
+      </Text>
+    </View>
+  </View>
+  <Image
+    className="sc-hKwDye dwjBKK"
+    source={
+      Object {
+        "uri": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+      }
+    }
+  />
+  <View
+    className="sc-jRQBWg hgamtG"
+    width={750}
+  >
+    <View
+      collapsable={false}
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "borderColor": "transparent",
+          "borderRadius": 4,
+          "borderStyle": "solid",
+          "borderWidth": 0,
+          "elevation": 0,
+          "minWidth": 64,
+        }
+      }
+    >
+      <View
+        accessibilityRole="button"
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Object {
+              "borderRadius": 4,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "marginLeft": 12,
+                "marginRight": -4,
+              }
+            }
+          >
+            <Text
+              accessibilityElementsHidden={true}
+              allowFontScaling={false}
+              importantForAccessibility="no-hide-descendants"
+              pointerEvents="none"
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontSize": 16,
+                  },
+                  Array [
+                    Object {
+                      "lineHeight": 16,
+                      "transform": Array [
+                        Object {
+                          "scaleX": 1,
+                        },
+                      ],
+                    },
+                    Object {
+                      "backgroundColor": "transparent",
+                    },
+                  ],
+                  Object {
+                    "fontFamily": "Material Design Icons",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              󰁝
+            </Text>
+          </View>
+          <Text
+            numberOfLines={1}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontWeight": "400",
+                },
+                Object {
+                  "textAlign": "left",
+                },
+                Array [
+                  Object {
+                    "letterSpacing": 1,
+                    "marginHorizontal": 16,
+                    "marginVertical": 9,
+                    "textAlign": "center",
+                  },
+                  undefined,
+                  Object {
+                    "textTransform": "uppercase",
+                  },
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "System",
+                    "fontWeight": "500",
+                  },
+                  Object {
+                    "fontFamily": "System",
+                    "fontWeight": "500",
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "marginVertical": 8,
+          },
+          Object {},
+        ]
+      }
+      theme={
+        Object {
+          "animation": Object {
+            "scale": 1,
+          },
+          "colors": Object {
+            "accent": "#03dac4",
+            "backdrop": "rgba(0, 0, 0, 0.5)",
+            "background": "#f6f6f6",
+            "disabled": "rgba(0, 0, 0, 0.26)",
+            "error": "#B00020",
+            "notification": "#f50057",
+            "onSurface": "#000000",
+            "placeholder": "rgba(0, 0, 0, 0.54)",
+            "primary": "#6200ee",
+            "surface": "#ffffff",
+            "text": "#000000",
+          },
+          "dark": false,
+          "fonts": Object {
+            "light": Object {
+              "fontFamily": "System",
+              "fontWeight": "300",
+            },
+            "medium": Object {
+              "fontFamily": "System",
+              "fontWeight": "500",
+            },
+            "regular": Object {
+              "fontFamily": "System",
+              "fontWeight": "400",
+            },
+            "thin": Object {
+              "fontFamily": "System",
+              "fontWeight": "100",
+            },
+          },
+          "roundness": 4,
+        }
+      }
+    >
+      <RCTScrollView>
+        <View>
+          <Text
+            numberOfLines={1}
+            style={
+              Array [
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontWeight": "400",
+                },
+                Object {
+                  "textAlign": "left",
+                },
+                Array [
+                  Object {
+                    "paddingHorizontal": 16,
+                    "paddingVertical": 13,
+                  },
+                  Object {
+                    "color": "rgba(0, 0, 0, 0.54)",
+                    "fontFamily": "System",
+                    "fontWeight": "500",
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            Abilities: 
+          </Text>
+          <View
+            accessibilityState={
+              Object {
+                "disabled": true,
+              }
+            }
+            accessible={true}
+            focusable={false}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                false,
+                Array [
+                  Object {
+                    "padding": 8,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "marginVertical": 6,
+                      "paddingLeft": 8,
+                    },
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontWeight": "400",
+                      },
+                      Object {
+                        "textAlign": "left",
+                      },
+                      Array [
+                        Object {
+                          "fontSize": 16,
+                        },
+                        Object {
+                          "color": "rgba(0, 0, 0, 0.87)",
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  blaze
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              Object {
+                "disabled": true,
+              }
+            }
+            accessible={true}
+            focusable={false}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                false,
+                Array [
+                  Object {
+                    "padding": 8,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "marginVertical": 6,
+                      "paddingLeft": 8,
+                    },
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  selectable={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontWeight": "400",
+                      },
+                      Object {
+                        "textAlign": "left",
+                      },
+                      Array [
+                        Object {
+                          "fontSize": 16,
+                        },
+                        Object {
+                          "color": "rgba(0, 0, 0, 0.87)",
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  solar-power
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </View>
+</View>
+`;
