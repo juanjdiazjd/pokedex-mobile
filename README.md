@@ -28,6 +28,7 @@
 
 
   [X] Probado en iOS
+  [X] Probado en Android
   
   
 ## Screenshoots
@@ -101,7 +102,10 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+for ios: 
 npm run ios
+for android:
+npm run android
 
 
 
