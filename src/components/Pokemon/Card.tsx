@@ -1,15 +1,12 @@
 import * as React from "react";
-import { Alert, View } from "react-native";
+import { Alert, Touchable, TouchableOpacity, View } from "react-native";
 import styled from "styled-components";
 import theme from "../../theme";
 import { TextType, TextView } from "../Text/TextView";
 import { getPokemonIdFromUrl, POKEMON_TYPES_COLOURS } from "./utils/index";
-import {
-  NamedAPIResource, Pokemon,
-} from "../../types/Home/pokemon";
+import { NamedAPIResource, Pokemon } from "../../types/Home/pokemon";
 import { PokemonSprite } from "./styledComponents";
 import { usePokemonDetail } from "../../screens/Home/hooks/usePokemonDetail";
-import { TouchableOpacity, TouchableWithoutFeedback } from "react-native-gesture-handler";
 
 interface PokemonCardProps extends NamedAPIResource {
   onPress: (pokemon?: Pokemon) => void;
@@ -57,9 +54,9 @@ export const Card: React.FunctionComponent<PokemonCardProps> = ({
     data: responsePokeapi,
     error,
   } = usePokemonDetail(getPokemonIdFromUrl(url));
-  
+
   return (
-    <Wrapper onPress={()=> onPress(responsePokeapi?.data)}>
+    <Wrapper onPress={() => onPress(responsePokeapi?.data)}>
       {responsePokeapi?.data && (
         <PokemonCard
           backgroundColor={

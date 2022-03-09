@@ -1,5 +1,5 @@
 import * as React from "react";
-import { FlatList, ListRenderItem, StatusBar, View } from "react-native";
+import { FlatList, ListRenderItem, StatusBar } from "react-native";
 import Header from "../../components/Header";
 import {
   getOffsetFromUrl,
@@ -43,7 +43,7 @@ const HomeScreen = ({
   };
   const onListItemPress = React.useCallback(
     (pokemon) => {
-      return navigation.navigate('PokemonDetail', pokemon);
+      return navigation.navigate("PokemonDetail", pokemon);
     },
     [navigation]
   );

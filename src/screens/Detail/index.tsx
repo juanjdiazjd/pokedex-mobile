@@ -12,7 +12,7 @@ import Icon from "react-native-vector-icons/Ionicons";
 import theme from "../../theme";
 import { MarginSize } from "../../types/sizes";
 import { CardDetail } from "../../components/Pokemon/CardDetail";
-import { TouchableWithoutFeedback } from "react-native-gesture-handler";
+import { TouchableWithoutFeedback } from "react-native";
 
 const PokemonDetailScreen = ({
   route,
