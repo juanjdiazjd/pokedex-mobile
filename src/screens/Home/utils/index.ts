@@ -11,14 +11,14 @@ export type RootStackParamList = {
   PokemonDetail: Pokemon;
 };
 
-export const getOffsetFromUrl = (url: any | string) => {
+export const getOffsetFromUrl = (url: string) => {
   if (url !== null && url !== undefined) {
+    // @ts-ignore: Unreachable code error
     return url.split("/")[5].match("=(.*)&")[1];
   }
 };
 export const pokemonItemExtractorKey = (
   item: NamedAPIResource,
-  index: number
 ) => {
   return getPokemonIdFromUrl(item.url).toString();
 };

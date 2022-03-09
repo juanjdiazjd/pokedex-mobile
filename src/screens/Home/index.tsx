@@ -32,7 +32,7 @@ const HomeScreen = ({
         if (lastPage.next !== null) {
           return getOffsetFromUrl(lastPage.next);
         }
-        return lastPage;
+        return undefined;
       },
     });
 
