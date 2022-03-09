@@ -10,14 +10,10 @@ const createApi = () => {
   // @ts-ignore
   const { get } = buildApi({ baseURL: Config.POKEAPI_URL });
   return {
-    fetchAllPokemons: ({ pageParam = 0 }): Promise<PokemonList> => {
-      console.log("entra")
-      return get(`${pokemon.list}?limit=${LIMIT}&offset=${pageParam}`).then(
-        (res) => {
-          return res.data as PokemonList;
-        }
-      );
-    },
+    fetchAllPokemons: ({ pageParam = 0 }): Promise<PokemonList> =>
+      get(`${pokemon.list}?limit=${LIMIT}&offset=${pageParam}`).then(
+        (res) => res.data as PokemonList
+      ),
     pokemonDetail: (
       data: any,
       pokemonId: string,
